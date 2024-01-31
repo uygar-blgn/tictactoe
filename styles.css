@@ -9,6 +9,8 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -21,4 +23,10 @@ td {
     border: 2px solid black;
     width: 128px;
     height: 128px;
+    text-align: center;
+    font-size: 110px;
+}
+
+button {
+    padding: 5px;
 }
